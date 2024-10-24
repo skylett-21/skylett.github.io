@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>Tablas en html</title>
+ <link rel="stylesheet" href= "../css/colores_enlaces.css" types="text/css">
+    </head>
+    <body>
+        <header>
+            <h1>Tablas en HTML</h1>
+        </header>
+        <nav>
+            <ul>
+               <li><a href="../index.html">Inicio</a></li>
+                <li><a href="enlaces.html">Enlaces</a></li>
+                <li><a href="listas.html">Listas</a></li>
+                <li><a href="imagenes.html">Imagenes</a></li>
+                <li><a href="tablas.html">Tablas</a></li>
+                <li><a href="audio.html">Audio</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="formularios.html">Formularios</a></li>
+            </ul>
+        </nav>
+        <main>
+            <section>
+                <h2>Tabla simple con separación de border de celda</h2>
+                <p>Mi familia y sus contactos</p>
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Veranda</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2259138480</td>
+                            <td>veranda@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2215856556</td>
+                            <td>manueltsaloma@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>Claudia</td>
+                            <td>Saloma</td>
+                            <td>Cano</td>
+                            <td>2229083091</td>
+                            <td>claudiasaloma@gmail.com</td>
+               
+                        </tr>
+                    </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla modificada por clase y con uso de colspan</h2>
+                <p>Mi familia y sus contactos</p>
+                 <table border="1" id="" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th colspan="2">Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                            <td>Veranda</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2259138480</td>
+                            <td>veranda@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2215856556</td>
+                            <td>manueltsaloma@gmail.com</td>
+                         <tr>
+                            <td>Claudia</td>
+                            <td>Saloma</td>
+                            <td>Cano</td>
+                            <td>2229083091</td>
+                            <td>claudiasaloma@gmail.com</td>
+               
+                        </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla zebra</h2>
+                <p>Mi familia y sus contactos</p>
+                 <table border="1" id="tabla2">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                                              <tr>
+                            <td>Veranda</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2259138480</td>
+                            <td>veranda@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2215856556</td>
+                            <td>manueltsaloma@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>Claudia</td>
+                            <td>Saloma</td>
+                            <td>Cano</td>
+                            <td>2229083091</td>
+                            <td>claudiasaloma@gmail.com</td>
+               
+                        </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section>
+                <h2>Tabla hover</h2>
+                <p>Mi familia y sus contactos</p>
+                 <table border="1" id="tabla3">
+                    <thead>
+                        <tr>
+                            <td>Veranda</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2259138480</td>
+                            <td>veranda@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2215856556</td>
+                            <td>manueltsaloma@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>Claudia</td>
+                            <td>Saloma</td>
+                            <td>Cano</td>
+                            <td>2229083091</td>
+                            <td>claudiasaloma@gmail.com</td>
+               
+                        </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+            <section style="overflow-x: auto;">
+                <h2>Tabla con overflow</h2>
+                <p>Mi familia y sus contactos</p>
+                 <table border="1" id="tabla1" class="tabla1">
+                    <thead>
+                        <tr>
+                            <th>Nombre</th>
+                            <th>Apellido Paterno</th>
+                            <th>Apellido Materno</th>
+                            <th>Telefono</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                       <tr>
+                            <td>Veranda</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2259138480</td>
+                            <td>veranda@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <td>Manuel</td>
+                            <td>Torres</td>
+                            <td>Saloma</td>
+                            <td>2215856556</td>
+                            <td>manueltsaloma@gmail.com</td>
+                        </tr>
+                         <tr>
+                            <td>Claudia</td>
+                            <td>Saloma</td>
+                            <td>Cano</td>
+                            <td>2229083091</td>
+                            <td>claudiasaloma@gmail.com</td>
+               
+                        </tbody>
+                    <tfoot></tfoot>
+                </table>
+            </section>
+        </main>
+        <footer>
+          <h5>Elaborado por Scarlett T Saloma</h5>
+        </footer>
+    </body>
+</html>
